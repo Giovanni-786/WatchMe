@@ -1,10 +1,19 @@
 .movie-card {
   position: relative;
+  transition: transform 0.35s;
+  cursor: pointer;
+  &:hover{
+    filter: brightness(1.5);
+    transform: translate(-1%, -10%);
+    
+  }
 
   img {
     width: 14.31rem;
     height: 21.25rem;
+    transition: 300ms;
   }
+
 
   > div {
     position: absolute;
@@ -24,7 +33,10 @@
       
       display: flex;
       flex-direction: column;
-  
+      
+      .movie-info:hover{
+        width: 200%;
+      }
       > span {
         font-weight: 600;
         font-size: 1rem;
@@ -55,5 +67,6 @@
         }
       }
     }
+
   }
 }
