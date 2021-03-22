@@ -56,9 +56,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - Faça um clone desse repositório: 
 `git clone https://github.com/Giovanni-786/WatchMe.git`
 
-- Instale as dependências: `yarn install` ou `npm install`
+- Instale as dependências: `yarn`
 - Inicie a aplicação:
-    - Rode o comando de inicialização: `yarn start` ou `npm start`
+    - Rode o comando de inicialização: `yarn dev`
     - Inicalize a API: `yarn server`
 
 <a id="como-contribuir"></a>
